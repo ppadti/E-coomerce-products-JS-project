@@ -1,0 +1,141 @@
+.whether {
+    margin-top: 35rem;
+    margin-left: 1rem;
+    width: 25%;
+    height: 30rem;
+    background-color: rgb(97, 185, 226);
+}
+.dots {
+    margin: 0;
+    text-align: center;
+    float: right;
+    height: 1.5rem;
+    width: 2rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    color: white;
+}
+.dots:hover {
+background-color: rgb(99, 175, 213);
+}
+.temp , .type , .temp h2{
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    margin-top: 1rem;
+    padding: 0.2rem;
+}
+.type{
+    margin: 1rem;
+}
+.sun_img {
+    text-align: center;
+}
+.info {
+    display: flex;
+    margin: 0.5rem;
+    justify-content: space-between;
+    
+}
+.info_1 , .info_2{
+    width: 4rem;
+    height: 3rem;
+    text-align: center;
+    font-size: 0.8rem;
+    color: white;
+    padding:  0 1.5rem;
+
+}
+.info_2 {
+    margin: 0;
+    width: 6rem;
+    
+
+}
+.week_info {
+    display: flex;
+    text-align: center;
+    width: 85%;
+    height: 5rem;
+    margin: 1rem;
+    border-radius: 0;
+    background-color: rgb(99, 166, 214);
+}
+.day {
+    padding: 0.2rem;
+    width: 15%;
+    height: 2rem;
+    font-size: 0.6rem;
+    color: white;
+}
+.date_info {
+    color: white;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.location_info{
+    text-align: center;
+    color: white;
+    display: flex;
+    font-size: 1rem;
+}
+.location_info p {
+    margin: 0%;
+    padding-left: 0.5rem;
+}
+@media screen and (max-width:1024px) {
+    .whether {
+        display: none;
+    }
+    
+}
+@media screen and (min-width:1040px) {
+    .whether {
+        margin-left: 3rem;
+        width: 20%;
+        height: 32rem;
+    }
+    .week_info {
+        width: 90%;
+    }
+ .day {
+    width:1rem;
+    padding: 0.5rem 1rem;
+ }
+ .location_info{
+    margin-left: 30%;
+
+ }
+  .location_info h4 {
+    font-size: 0.1rem;
+  }
+}
+@media only screen and (min-width:1040px) and (max-width:1400px){
+    .week_info {
+            width: 90%;
+        }
+        .day {
+        width: 1rem;
+        padding:0.2rem 0.4rem;
+    }
+}
+@media only screen and (min-width:1401px) and (max-width:1650px) {
+    .week_info {
+        width: 90%;
+    }
+
+    .day {
+        width: 1rem;
+        padding: 0.2rem 0.6rem;
+    }
+}
+@media only screen and (min-width:1651px) and (max-width:1890px) {
+    .week_info {
+        width: 90%;
+    }
+
+    .day {
+        width: 1rem;
+        padding: 0.2rem 0.8rem;
+    }
+}

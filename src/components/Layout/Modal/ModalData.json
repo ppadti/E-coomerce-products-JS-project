@@ -1,0 +1,27 @@
+
+[
+    {
+        "id" :1,
+        "name" : "Dan Walker",
+        "content" : "Hello, How are you?",
+        "date" : "Yesterday",
+        "img" : "../../assets/user1.jpg"
+        
+    },
+      {
+        "id" :2,
+        "name" : "Edward Mayers",
+        "content" : "Hello, had coffe?",
+        "date" : "Yesterday",
+        "img" : "../../assets/user2.jpg"
+        
+    },
+    {
+        "id" :3,
+        "name" : "NellySchwartz",
+        "content" : "Hii, Can we have a call today?",
+        "date" : "Yesterday",
+        "img" : "../../assets/user3.jpg"
+    }
+   
+]

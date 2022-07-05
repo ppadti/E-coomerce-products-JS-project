@@ -1,0 +1,86 @@
+.post_card {
+margin-top: 35rem;
+margin-left: 2rem;
+width: 93%;
+height: 18rem;
+float: left;
+}
+.head_tag {
+    background-color: rgb(233, 231, 226);
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem; 
+    cursor: pointer;
+} 
+.publish{
+    width: 15%;
+    display: flex;
+    padding: 0.5rem 1.5rem;
+    color: rgb(39, 37, 37);
+    background-color: white;
+}
+.albums , .video {
+    width: 15%;
+    display: flex;
+    
+    padding: 0.5rem 2rem;
+}
+.albums:hover, .video:hover {
+background-color: white;
+}
+.icon {
+    padding-right: 0.2rem;
+}
+
+.input_field {
+   margin: 1rem;
+    display: flex;
+    width: 95%;
+    height: 8rem;
+    align-items: center;
+    
+}
+.img {
+    margin: 1rem;
+}
+.field input {
+    height: 3rem;
+    width: 100%;
+    border-radius: 1rem;
+    border: none;
+    border-color: transparent;
+}
+.footer_tags {
+    display: flex;
+
+}
+
+.media, .activity {
+    display: flex;
+    align-items: center;
+    margin: 1rem 1rem;
+    background-color: rgb(248, 239, 239);
+    color: rgb(136, 136, 134);
+    width: 25%;
+    height: 2rem;
+    padding: 0.2rem 0.3rem;
+    border-radius: 1.5rem;
+}
+.dots{
+    text-align: center;
+    margin: 1rem 1rem;
+    color: rgb(136, 136, 134);
+    background-color: rgb(248, 239, 239);
+    width: 6%;
+    height: 2rem;
+    padding: 0.2rem 0.5rem;
+    border-radius: 1.5rem;
+}
+.media_icon {
+    padding-right: 0.4rem;
+}
+@media screen and (max-width:1024px) {
+    .post_card {
+        width: 200%;
+    }
+}

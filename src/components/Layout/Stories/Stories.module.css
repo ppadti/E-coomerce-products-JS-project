@@ -1,0 +1,55 @@
+.stories {
+    margin-top: 35rem;
+    margin-left: 2rem;
+    width: 20%;
+    height: 25rem;
+}
+.heading {
+    text-align: center;
+    font-size: 1.5rem;
+    margin: 1rem;
+}
+
+.dot {
+    margin: 0;
+    text-align: center;
+    float: right;
+    cursor: pointer;
+}
+
+.story {
+    width: 100%;
+    height: 5rem;
+
+    display: flex;
+} 
+.story_icon {
+    margin: 1.5rem 0.5rem;
+}
+.content h5{
+    margin: 0%;
+    padding: 0.3rem;
+}
+.content p {
+    margin: 0%;
+}
+.img {
+    margin: 0.5rem;
+}
+.users{
+    display: flex;
+}
+.user_details h4, .user_details p {
+    margin: 0.3rem;
+    padding-left: 0.5rem;
+    color: grey;
+}
+.user_details h4 {
+    color: black;
+}
+@media screen and (max-width:1024px) {
+    .stories {
+        display: none;
+    }
+
+}
