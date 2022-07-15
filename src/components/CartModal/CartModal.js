@@ -6,10 +6,10 @@ import { useContext } from "react";
 // import { Product_Data } from "../E-Commerce/ProductList";
 
 const CartModal = (props) => {
-  const { items, removeFromCart } = useContext(CartContext);
-  // console.log(items[0].id);
+  const { items, addToCart, removeFromCart } = useContext(CartContext);
+  let elements = items;
 
-  var res = items
+  var res = elements
     .map((item) => item.price)
     .reduce((acc, item) => acc + item, 0);
   // console.log(res);
@@ -25,8 +25,8 @@ const CartModal = (props) => {
                 {item.Name}
               </li>
               <li className={classes.item_price}>{item.price}</li>
-              <div></div>
-              <button onClick={() => removeFromCart(item.id)}>delete</button>
+              <button onClick={() => addToCart(item)}>+</button>
+              <button onClick={() => removeFromCart(item)}>-</button>
               <hr></hr>
             </>
           );
