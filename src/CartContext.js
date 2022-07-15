@@ -3,13 +3,14 @@ import { createContext, useState } from "react";
 const CartContext = createContext();
 
 export function CartProvider({ children }) {
+  var res;
   const [items, setItems] = useState([]);
   const addToCart = (elements) => {
     setItems((prevState) => [...prevState, elements]);
   };
-  const removeFromCart = (id) => {
-    console.log(id);
-    setItems(items.filter((item) => item.id !== id));
+  const removeFromCart = (props) => {
+    console.log(props.id);
+    setItems(items.filter((item) => item.id !== props.id));
 
     // console.log(items);
     // setItems(items);
